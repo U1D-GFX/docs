@@ -12,9 +12,14 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Blog",
-          "icon": "newspaper",
-          "href": "https://mintlify.com/blog"
+          "anchor": "Website",
+          "icon": "globe",
+          "href": "https://u1dgfx.com"
+        },
+        {
+          "anchor": "Discord",
+          "icon": "discord",
+          "href": "https://discord.gg/u1dgfx"
         }
       ]
     },
@@ -32,6 +37,18 @@
             "group": "Common Issues",
             "pages": [
               "guides/common-issues/enb-issues"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Enhanced Single Player",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "guides/enhanced-sp/installation",
+              "guides/enhanced-sp/recommended-settings"
             ]
           }
         ]
