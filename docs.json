@@ -41,11 +41,11 @@
           }
         ]
       },
-      {
-        "tab": "Enhanced Single Player",
+            {
+        "tab": "Products",
         "groups": [
           {
-            "group": "Overview",
+            "group": "Enhanced",
             "pages": [
               "guides/enhanced-sp/installation",
               "guides/enhanced-sp/recommended-settings"
