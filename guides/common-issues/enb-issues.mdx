@@ -1,0 +1,48 @@
+---
+title: "ENB Issues — Black Dots on Screen"
+description: "Fix random black dots appearing on screen caused by missing ENB files in your GTA V or FiveM directory."
+---
+
+<Warning>
+  If you are seeing **random black dots scattered across your screen** while in-game, this is caused by ENB not being installed correctly.
+</Warning>
+
+## Cause
+
+This issue occurs when the ENB binaries are missing from one or both of the required directories. U1D GFX requires ENB to be present in **both** your GTA V game directory and your FiveM plugins directory to function correctly.
+
+## Fix
+
+Follow the steps below to resolve the black dot issue:
+
+<Steps>
+  <Step title="Download ENB Binaries">
+    Download the latest ENB binaries from [enbdev.com](http://enbdev.com). Make sure to download the version for **GTA V**.
+  </Step>
+  <Step title="Install into your GTA V Directory">
+    Extract the ENB archive and copy `d3d11.dll` and `d3dcompiler_46e.dll` into your **GTA V root directory**.
+
+    Example path: `C:\Program Files\Rockstar Games\Grand Theft Auto V\`
+  </Step>
+  <Step title="Install into your FiveM Plugins Directory">
+    Copy the same files (`d3d11.dll` and `d3dcompiler_46e.dll`) into your **FiveM plugins folder**.
+
+    Example path: `C:\Users\YourName\AppData\Local\FiveM\FiveM.app\plugins\`
+  </Step>
+  <Step title="Restart FiveM">
+    Once both directories have the ENB files, fully restart FiveM and launch your server. The black dots should no longer appear.
+  </Step>
+</Steps>
+
+<Note>
+  If you are unsure where your FiveM `plugins` folder is, open FiveM, click the settings icon, and navigate to **Open FiveM folder**. From there, go into `FiveM.app > plugins`.
+</Note>
+
+---
+
+## Still Having Issues?
+
+If the steps above did not resolve your problem, reach out to the U1D GFX support team:
+
+- **Discord:** [discord.gg/u1dgfx](https://discord.gg/u1dgfx)
+- **Email:** [support@u1dgfx.com](mailto:support@u1dgfx.com)
