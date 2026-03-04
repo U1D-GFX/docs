@@ -23,16 +23,16 @@
         }
       ]
     },
-    "tabs": [
+    "groups": [
       {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting Started",
-            "pages": [
-              "index"
-            ]
-          },
+        "group": "Getting Started",
+        "pages": [
+          "index"
+        ]
+      },
+      {
+        "group": "Guides",
+        "pages": [
           {
             "group": "Common Issues",
             "pages": [
@@ -41,9 +41,9 @@
           }
         ]
       },
-            {
-        "tab": "Products",
-        "groups": [
+      {
+        "group": "Products",
+        "pages": [
           {
             "group": "Enhanced",
             "pages": [
