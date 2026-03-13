@@ -36,7 +36,8 @@
           {
             "group": "Common Issues",
             "pages": [
-              "guides/common-issues/enb-issues"
+              "guides/common-issues/enb-issues",
+              "guides/common-issues/enb-issues-menu-not-opening"
             ]
           }
         ]
@@ -49,6 +50,14 @@
             "pages": [
               "guides/enhanced-sp/installation",
               "guides/enhanced-sp/recommended-settings"
+            ]
+          },
+          {
+            "group": "Remastered",
+            "pages": [
+              "installation-guide",
+              "addons-installation-guide",
+              "recommended-settings"
             ]
           }
         ]
