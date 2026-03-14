@@ -39,6 +39,12 @@
               "guides/common-issues/enb-issues",
               "guides/common-issues/enb-issues-menu-not-opening"
             ]
+          },
+          {
+            "group": "Linking Patreon and Discord",
+            "pages": [
+              "how-to-link-patreon-to-your-discord"
+            ]
           }
         ]
       },
@@ -58,6 +64,12 @@
               "installation-guide",
               "addons-installation-guide",
               "recommended-settings"
+            ]
+          },
+          {
+            "group": "SFX Collections",
+            "pages": [
+              "installation-guide-1"
             ]
           }
         ]
